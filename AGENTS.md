@@ -13,7 +13,7 @@
 
 ```
 tesserax-blog/
-  *.md              Published posts
+  posts/            Published posts
   _drafts/          Draft posts (hidden from public listing)
   README.md
   AGENTS.md
@@ -33,4 +33,4 @@ When adding or editing a post:
 
 - Posts are Markdown with YAML frontmatter — no HTML templates here
 - Public routes are `/blog` (listing) and `/blog/{slug}` (post) on the arena app
-- Do not commit secrets or internal-only content as published posts (root-level `.md` files)
+- Do not commit secrets or internal-only content as published posts (`posts/` files)

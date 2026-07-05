@@ -7,7 +7,7 @@ This repository is the **canonical source** for announcements, launch notes, and
 ## Layout
 
 ```
-*.md              Published posts (YAML frontmatter + Markdown body)
+posts/            Published posts (YAML frontmatter + Markdown body)
 _drafts/          Draft posts (not shown on the public listing)
 AGENTS.md         Agent workflows
 ```
@@ -39,7 +39,7 @@ Preview locally by running the arena app (`./scripts/test_local.sh`) after initi
 
 ## Publishing workflow
 
-1. Add or edit a `.md` file in this repo (or `_drafts/` for drafts)
+1. Add or edit a `.md` file in `posts/` (or `_drafts/` for drafts)
 2. Commit and push **this repo**
 3. In `tesserax-arena`: `cd blog && git pull`, then commit the updated submodule SHA
 4. Deploy picks up the new posts automatically (no Docker rebuild step beyond the arena deploy)
