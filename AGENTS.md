@@ -25,7 +25,7 @@ When adding or editing a post:
 
 1. **Create** a file named `YYYY-MM-DD-slug.md` (slug = filename stem, used in `/blog/{slug}`)
 2. **Frontmatter** must include `title`, `date`, and optional `tags`
-3. **Draft?** Put the file in `_drafts/` instead of the repo root
+3. **Draft?** Put the file in `_drafts/` instead of `posts/`
 4. **Commit and push** this repo
 5. **Bump submodule pointer** in tesserax-arena (`cd blog && git pull`, commit SHA in parent)
 
