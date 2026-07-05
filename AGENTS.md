@@ -12,7 +12,7 @@
 ## Directory map
 
 ```
-tesserax-blog/
+blog/
   posts/            Published posts
   _drafts/          Draft posts (hidden from public listing)
   README.md

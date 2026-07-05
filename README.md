@@ -28,8 +28,8 @@ tags: [announcement, launch]
 
 ```bash
 # Standalone
-git clone https://github.com/tesserax-arena/tesserax-blog.git
-cd tesserax-blog
+git clone https://github.com/tesserax-arena/blog.git
+cd blog
 
 # As submodule in tesserax-arena
 git submodule update --init blog
